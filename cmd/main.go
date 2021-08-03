@@ -33,8 +33,8 @@ func main() {
 	}
 
 	execPath := ""
-	if *brwoserPath != "" {
-		execPath = *brwoserPath
+	if *browserPath != "" {
+		execPath = *browserPath
 	}
 	RE:
 	jdSecKill := secKill.NewJdSecKill(execPath, *skuId, *num, *works)
